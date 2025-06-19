@@ -1,28 +1,27 @@
-Claro. Aqui está uma versão básica e direta para o seu README.md, contendo apenas as seções de "Como Instalar" e "Como Usar", pronta para copiar e colar.
 Mav Links - Ferramenta de Auditoria de Links
 
 Este script utiliza Node.js e Puppeteer para escanear um site, extrair links e verificar seus status.
 🚀 Instalação
 
 Pré-requisito: Você precisa ter o Node.js (versão LTS) instalado.
+1.Abra o Terminal.
 
-    Clone o repositório:
-    Bash
+2.Atualize seus pacotes:
 
-git clone https://github.com/seu-usuario/mav-links.git
+    sudo apt update
+3.Instale o Node.js e o npm:
 
-(Substitua seu-usuario/mav-links pelo seu repositório no GitHub)
+    sudo apt install nodejs npm
+Instalação do pacote:
+
+    git clone https://github.com/Mavcg/MavLink
+
 
 Entre na pasta do projeto:
 Bash
 
-cd mav-links
+    cd mav-links
 
-Instale as dependências:
-(Este comando instala o Puppeteer e o navegador Chromium necessário para ele rodar)
-Bash
-
-    npm install
 
 ⚙️ Como Usar
 
@@ -33,15 +32,15 @@ node mavLinks.js -h
 
 Exemplos de Uso
 
-    Fazer uma varredura simples (apenas links internos):
-    Bash
+Fazer uma varredura simples (apenas links internos):
+Bash
 
-node mavLinks.js --url=https://www.example.com
+    node mavLinks.js --url=https://www.example.com
 
 Capturar TODOS os links (internos e externos):
 Bash
 
-node mavLinks.js --url=https://www.example.com --all-links
+    node mavLinks.js --url=https://www.example.com --all-links
 
 Acelerar a varredura com 10 verificações ao mesmo tempo:
 Bash
