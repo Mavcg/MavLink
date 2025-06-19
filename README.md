@@ -28,7 +28,7 @@ Bash
 A ferramenta é operada via linha de comando. Para ver todas as opções e exemplos, execute o comando de ajuda:
 Bash
 
-node mavLinks.js -h
+    node mavLinks.js -h
 
 Exemplos de Uso
 
