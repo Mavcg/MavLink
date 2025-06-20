@@ -12,6 +12,10 @@ Pré-requisito: Você precisa ter o Node.js (versão LTS) instalado.
 3.Instale o Node.js e o npm:
 
     sudo apt install nodejs npm
+4. Instale o puppeteer
+       
+        npm install puppeteer
+    
 Instalação do pacote:
 
     git clone https://github.com/Mavcg/MavLink
