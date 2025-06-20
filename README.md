@@ -15,6 +15,9 @@ Pré-requisito: Você precisa ter o Node.js (versão LTS) instalado.
 4. Instale o puppeteer
        
         npm install puppeteer
+5. Instale também
+   
+       npx puppeteer browsers install chrome
     
 Instalação do pacote:
 
